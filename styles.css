@@ -1,0 +1,92 @@
+body {
+  font-family: "Lucida Console", Courier, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: darkgrey;
+  margin: 0;
+}
+
+.comment-container {
+  width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+button {
+  margin-top: 15px;
+  padding: 5px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  display: inline-block;
+  text-align: center;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#comment-section {
+  margin-top: 20px;
+}
+
+.comment {
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.delete-button {
+  margin-top: 10px;
+  margin-left: 5px;
+  padding: 5px 10px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-button:hover {
+  background: darkred;
+}
+
+.comment small {
+  color: gray;
+  font-size: 12px;
+  display: block;
+  margin-bottom: 5px;
+}
